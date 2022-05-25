@@ -1,8 +1,11 @@
 import type { NextPage } from "next";
-
-// import Products from "./Products";
+import FormValidation from "../Components/FormValidation"
 const Home: NextPage = () => {
-  return <div>This is a Home Page</div>;
+  return (
+    <div>
+      <FormValidation />
+    </div>
+  );
 };
 
 export default Home;
