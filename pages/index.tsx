@@ -1,9 +1,11 @@
 import type { NextPage } from "next";
-import FormValidation from "../Components/FormValidation"
+import ChakraFormik from "../Components/ChakraFormik";
+import FormValidation from "../Components/FormValidation";
 const Home: NextPage = () => {
   return (
     <div>
-      <FormValidation />
+      {/* <FormValidation /> */}
+      <ChakraFormik />
     </div>
   );
 };
